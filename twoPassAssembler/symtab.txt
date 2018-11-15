@@ -1,0 +1,10 @@
+     first      1000
+      five      101e
+       one      1021
+     alpha      1024
+      beta      1027
+      gamm      102a
+     delta      102d
+      incr      1030
+     chars      1033
+        c1      1034

@@ -1,0 +1,22 @@
+test	start	1000
+first	lda	five
+	sta	alpha
+	lda	alpha	
+	add	incr
+	sta	beta
+	lda	gamm
+	sub	five
+	sta	delta
+	ldch	chars
+	stch	c1
+five	word	5
+one	word	1
+alpha	resw	1
+beta	resw	1
+gamm	word	1
+delta	resw	1
+incr	word	3
+chars	byte	c'z'
+c1	resw	1
+	end	first
+

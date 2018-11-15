@@ -1,0 +1,22 @@
+      1000       test      start       1000 
+      1000      first        lda       five 
+      1003                   sta      alpha 
+      1006                   lda      alpha 
+      1009                   add       incr 
+      100c                   sta       beta 
+      100f                   lda       gamm 
+      1012                   sub       five 
+      1015                   sta      delta 
+      1018                  ldch      chars 
+      101b                  stch         c1 
+      101e       five       word          5 
+      1021        one       word          1 
+      1024      alpha       resw          1 
+      1027       beta       resw          1 
+      102a       gamm       word          1 
+      102d      delta       resw          1 
+      1030       incr       word          3 
+      1033      chars       byte       c'z' 
+      1034         c1       resw          1 
+      1037                   end      first 
+length:37
